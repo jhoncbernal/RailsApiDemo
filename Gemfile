@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'oj', '~> 3.6', '>= 3.6.11'
 gem 'faraday', '~> 0.15.3'
+gem 'rack-cors'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

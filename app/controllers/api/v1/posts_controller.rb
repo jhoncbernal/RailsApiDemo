@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
-    @post = Post.find_by(params[:id])
+    @post = Post.find_by(id: params[:id])
     if @post
       render json: @post
     else
